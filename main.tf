@@ -24,7 +24,7 @@ resource "kubernetes_deployment_v1" "web" {
   }
 
   spec {
-    replicas    =    1
+    replicas = 1
 
     selector {
       match_labels = {
